@@ -28,8 +28,9 @@ This commands includes
 
 ## Output
 <img width="983" height="306" alt="image" src="https://github.com/user-attachments/assets/00b60027-97ad-476f-90ce-ff53d912125f" />
-```
+
 server.py
+```
 import socket
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -53,9 +54,9 @@ while True:
 conn.close()
 server_socket.close()
 ```
-```
-client.py
 
+client.py
+```
 import socket
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
