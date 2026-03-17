@@ -73,8 +73,9 @@ while True:
 client_socket.close()
 ```
 <img width="700" height="270" alt="image" src="https://github.com/user-attachments/assets/777381e3-9c00-44fe-83a9-24706091868c" />
-```
+
 server.py
+```
 import socket
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -90,9 +91,9 @@ while True:
     server_socket.sendto(reply.encode(), addr)
 ```
 
-```
-client.py
 
+client.py
+```
 import socket
 import time
 
