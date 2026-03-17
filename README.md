@@ -28,11 +28,10 @@ This commands includes
 
 ## Output
 <img width="983" height="306" alt="image" src="https://github.com/user-attachments/assets/00b60027-97ad-476f-90ce-ff53d912125f" />
-```
 server.py
+```
 import socket
 
-# create socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 server_socket.bind(('localhost', 12345))
@@ -54,8 +53,8 @@ while True:
 conn.close()
 server_socket.close()
 ```
-```
 client.py
+```
 import socket
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -72,8 +71,8 @@ while True:
 client_socket.close()
 ```
 <img width="700" height="270" alt="image" src="https://github.com/user-attachments/assets/777381e3-9c00-44fe-83a9-24706091868c" />
-```
 server.py
+```
 import socket
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -88,8 +87,8 @@ while True:
     reply = "Hop reached / Reply from server"
     server_socket.sendto(reply.encode(), addr)
 ```
-```
 client.py
+```
 import socket
 import time
 
