@@ -28,7 +28,9 @@ This commands includes
 
 ## Output
 <img width="983" height="306" alt="image" src="https://github.com/user-attachments/assets/00b60027-97ad-476f-90ce-ff53d912125f" />
+```
 server.py
+```
 ```
 import socket
 
@@ -53,7 +55,9 @@ while True:
 conn.close()
 server_socket.close()
 ```
+```
 client.py
+```
 ```
 import socket
 
@@ -71,7 +75,9 @@ while True:
 client_socket.close()
 ```
 <img width="700" height="270" alt="image" src="https://github.com/user-attachments/assets/777381e3-9c00-44fe-83a9-24706091868c" />
+```
 server.py
+```
 ```
 import socket
 
@@ -87,7 +93,9 @@ while True:
     reply = "Hop reached / Reply from server"
     server_socket.sendto(reply.encode(), addr)
 ```
+```
 client.py
+```
 ```
 import socket
 import time
