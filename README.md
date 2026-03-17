@@ -41,7 +41,12 @@ client.py
 <img width="865" height="348" alt="image" src="https://github.com/user-attachments/assets/6173151f-6a2b-4f7c-ba77-feacc1af81a6" />
 
 ```
+server
 <img width="625" height="312" alt="image" src="https://github.com/user-attachments/assets/375e3b01-5828-446d-aa1f-7fb236cd66b5" />
+```
+```
+client.py
+
 <img width="674" height="305" alt="image" src="https://github.com/user-attachments/assets/20c5a0c7-a67d-4988-a454-b1bc393c8f44" />
 
 
